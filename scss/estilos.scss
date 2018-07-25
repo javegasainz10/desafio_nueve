@@ -1,0 +1,18 @@
+@import 'variables';
+@import 'extends';
+
+@import 'main';
+@import 'personajes';
+@import 'casting';
+@import 'rodaje';
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background: url(../images/back2.jpeg);
+	background-size: cover;
+}

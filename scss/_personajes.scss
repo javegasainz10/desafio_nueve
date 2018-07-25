@@ -1,0 +1,19 @@
+.personajes h2 {
+	background-color: $colorPersonajes;
+}
+
+.personajes{
+	border-right: 5px dotted red;
+	padding-right: 50px;
+
+	ul {
+	list-style: none;
+	text-align: left;
+	padding: 0px 5px;
+
+		li {
+		margin-bottom: 5px;
+		font-size: $textoParr;
+		}
+	}	
+}
